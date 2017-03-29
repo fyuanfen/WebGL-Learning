@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="../js/three.js"></script>
+
+    <script type="text/javascript">
+        function init() {
+            var renderer = new THREE.WebGLRenderer({
+                canvas: document.getElementById('mainCanvas')
+            });
+            renderer.setClearColor(0x000000);
+            var scene = new THREE.Scene();
+
+            // camera
+            var camera = new THREE.OrthographicCamera(-5, 5, 3.75, -3.75, 0.1, 100);
+            camera.position.set(25, 25, 25);
+            camera.lookAt(new THREE.Vector3(0, 0, 0));
+            scene.add(camera);
+
+            // light
+            var light = new THREE.PointLight(0xffffff, 1, 100);
+            light.position.set(10, 15, 5);
+            scene.add(light);
+
+
+            // 但是由于现在我们还没使用动画，画面只被渲染了一次，而在导入纹理之前，已经完成了这次渲染，
+            // 因此看到的只是一片黑。所以，如果没有重绘函数，就需要在完成导入纹理的步骤后，重新绘制画面，这是在回调函数中实现的。
+//            var texture = THREE.ImageUtils.loadTexture('../img/0.png', {}, function() {
+//                renderer.render(scene, camera);
+//            })
+//
+//            var material = new THREE.MeshLambertMaterial( {
+//                map: texture
+//            });
+//
+//            var cube = new THREE.Mesh(new THREE.CubeGeometry(5, 5, 5), material);
+//            scene.add(cube);
+
+
+
+
+            //六张图片应用于正方体
+            var materials = [];
+            for (var i = 0; i < 6; ++i) {
+                materials.push(new THREE.MeshBasicMaterial({
+                    map: THREE.ImageUtils.loadTexture('../img/' + i + '.png', {}, function() {
+                        renderer.render(scene, camera);
+                    }),
+                    overdraw: true
+                }));
+            }
+
+            var cube = new THREE.Mesh(new THREE.CubeGeometry(5, 5, 5),
+                new THREE.MeshFaceMaterial(materials));
+            scene.add(cube);
+
+
+
+            renderer.render(scene, camera);
+        }
+    </script>
+</head>
+
+<body onload="init()">
+<canvas id="mainCanvas" width="800px" height="600px" ></canvas>
+</body>
+</html>
