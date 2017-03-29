@@ -1,7 +1,7 @@
 # three.js 基础学习笔记
 threeJs 是用来方便快捷创建 3D 视图的库，内部对 WebGL 的接口进行了封装。使得编写代码的过程更加贴近常规思维。
 
-# 基础 Api
+# 基础篇
 ## 1、创建画布
 如果要画一幅画，首先需要的是一块画布：
 
@@ -100,6 +100,85 @@ camera.lookAt(new THREE.Vector3(0, 0, 0))
 材质就是说这个物体是什么做的，金属和布就有很大区别。
 
 如果不通过触摸，就需要借助”光“来将材质进行区分，金属有高光而布没有。
+
+# 综合篇
+
+Three.js创建的3D场景中常用到的插件包括dat.gui.js和stats.js。
+
+  [dat.gui.js](http://workshop.chromeexperiments.com/examples/gui/)用于创建菜单栏，可以用来控制场景中的各个参数来调试场景。
+  stats.js用于对JavaScript进行性能检测。
+ 
+# dat.gui.js
+## 1.定义要控制的参数，以相机的位置为例
+
+
+```javascript
+var controls = new function() {  
+this.cx = 0;  
+this.cy = 0;  
+this.cz = 0;  
+this.redraw = function() {  
+    camera.position.set(controls.cx, controls.cy, controls.cz);  
+}  
+```
+
+cx、cy、cz为相机的x、y、z轴坐标。初始值为前面场景初始化定义相机的位置。
+`redraw`是当参数变化时的重绘函数。
+## 2.创建面板
+
+
+```javascript
+var gui = new dat.GUI();  
+gui.add(controls, 'cx', -100, 100).onChange(controls.redraw);  
+gui.add(controls, 'cy', -100, 100).onChange(controls.redraw);  
+gui.add(controls, 'cz', -100, 100).onChange(controls.redraw)  
+
+```
+ 往菜单中添加cx、cy、cz三个参数。
+定义参数变化范围是 -100 ~100 。
+定义参数变化时调用redraw()函数。
+
+# stats.js
+## 1.实例化一个stats对象 
+  
+  
+```javascript
+  var stats = new Stats();  
+  stats.setMode(0);   
+  stats.domElement.style.position = 'absolute';  
+  stats.domElement.style.left = '0px';  
+  stats.domElement.style.top = '0px';  
+  document.body.appendChild(stats.domElement); 
+         
+```
+setMode()函数 0：fps,1：ms
+## 2.更新
+
+```javascript
+ function render() {  
+ 	 stats.begin();
+    requestAnimationFrame(render);  
+    renderer.render(scene, camera);  
+    stats.update();  
+} 
+```
+
+
+调用update()函数实时更新。
+##  函数绑定问题
+
+在调用 `requestAnimationFrame`时，由于当前作用域是windows，因此没有render函数，也就无法实现动画特效。这时，就需要重新对`requestAnimationFrame`绑定该实例.
+
+众所周知，我们可以使用 Function 对象的原型方法call,apply, bind 来解决函数作用域的问题，call(this [, arg1, arg2 ...]) 和 apply(this [argArr]) 是一样的，都是立即在指定的 this 环境下执行函数，只是参数指定的方式不一样。而 bind 不一样，**它将一直绑定在指定的作用域中，之后的每次调用都会使用这个作用域。**
+
+```javascript
+MyThree.prototype.render = function () {
+   //更新代码
+   requestAnimationFrame(this.render.bind(this));//使用bind绑定当前this值
+
+   this.renderer.render(this.scene, this.camera);
+        };
+```
 
 # 参考
 
