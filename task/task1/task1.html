@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+    <script type="text/javascript" src="../../js/three.js"></script>
+
+    <script type="text/javascript">
+        function init() {
+            var renderer = new THREE.WebGLRenderer({
+                canvas: document.getElementById('mainCanvas'),
+                antialias: true,
+                precision: 'highp'
+            });
+            renderer.setClearColor(0x666666);
+
+
+            var scene = new THREE.Scene();
+//            var camera = new THREE.OrthographicCamera(-2, 2, 1.5, -1.5, 1, 10);
+//            camera.position.set(5, 5, 5);
+
+            var camera = new THREE.PerspectiveCamera(45, 400/300, 1, 10);
+            camera.position.set(3, 3, 3);
+            camera.lookAt(new THREE.Vector3(0, 0, 0));
+            scene.add(camera);
+
+            // light
+            var light = new THREE.PointLight(0xffffff, 1, 100);
+            light.position.set(10, 15, 5);
+            scene.add(light);
+
+
+            //车身
+            var cube = new THREE.Mesh(new THREE.CubeGeometry(3, 1, 1),
+                new THREE.MeshBasicMaterial({
+                    color: '#E3E3E3',
+                    wireframe: false
+                })
+            );
+            scene.add(cube);
+
+            //四轮胎，轮胎定位可以用对象postion.set方法，以物体为原点，计算x,y,z偏移值
+            var wheels = [];
+            for (var i = 0; i < 4; i++) {
+                wheels.push(
+                    new THREE.Mesh(
+                        new THREE.TorusGeometry(0.2, 0.08, 10, 20),
+                        new THREE.MeshPhongMaterial({
+                            color: '#F6F5F5',//散射光
+                        })
+                    ));
+            }
+
+            wheels[0].position.set(-1, -0.5, 0.5);
+            wheels[1].position.set(1, -0.5, 0.5);
+            wheels[2].position.set(1, -0.5, -0.5);
+            wheels[3].position.set(-1, -0.5, -0.5);
+            for (var i = 0; i < 4; i++) {
+                scene.add(wheels[i]);
+            }
+
+//
+//            var wheel2 = new THREE.Mesh(new THREE.TorusGeometry(0.2, 0.08, 10, 20),
+//                new THREE.MeshBasicMaterial({
+//                    color: '#F6F5F5'
+//                })
+//            );
+//            wheel2.position.set(1, -0.5, 0.5);
+//            scene.add(wheel2);
+//
+//            var wheel3 = new THREE.Mesh(new THREE.TorusGeometry(0.2, 0.08, 10, 20),
+//                new THREE.MeshBasicMaterial({
+//                    color: '#F6F5F5'
+//                })
+//            );
+//            wheel3.position.set(1, -0.5, -0.5);
+//            scene.add(wheel3);
+//
+//            var wheel4 = new THREE.Mesh(new THREE.TorusGeometry(0.2, 0.08, 10, 20),
+//                new THREE.MeshBasicMaterial({
+//                    color: '#F6F5F5'
+//                })
+//            );
+//            wheel4.position.set(-1, -0.5, -0.5);
+//            scene.add(wheel4);
+
+            renderer.render(scene, camera);
+        }
+    </script>
+</head>
+
+<body onload="init()">
+<canvas id="mainCanvas" width="800px" height="600px"></canvas>
+</body>
+</html>
