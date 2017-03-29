@@ -1,0 +1,87 @@
+html {
+  height: 100%; }
+
+body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  height: 100%;
+  min-width: 960px;
+  min-height: 520px;
+  padding: 3% 5%;
+  box-sizing: border-box;
+  margin: 0;
+  color: #81C784;
+  font-family: 'Luckiest Guy';
+  font-size: 120px;
+  letter-spacing: 5px;
+  /*pink*/
+  /*cyan*/
+  /*orange*/
+  /*green*/
+  background-color: #eceff1;
+  background: radial-gradient(rgba(248, 187, 208, 0.5) 6%, transparent 11%) 25px 25px, radial-gradient(rgba(178, 235, 242, 0.5) 6%, transparent 11%) 75px 75px, radial-gradient(rgba(255, 204, 128, 0.5) 6%, transparent 11%) 25px 125px, radial-gradient(rgba(200, 230, 201, 0.5) 6%, transparent 11%) 75px 175px, radial-gradient(rgba(255, 204, 128, 0.5) 6%, transparent 11%) 125px 25px, radial-gradient(rgba(200, 230, 201, 0.5) 6%, transparent 11%) 175px 75px, radial-gradient(rgba(248, 187, 208, 0.5) 6%, transparent 11%) 125px 125px, radial-gradient(rgba(178, 235, 242, 0.5) 6%, transparent 11%) 175px 175px;
+  background-size: 200px 200px; }
+
+.row {
+  flex: 0 0 auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center; }
+
+.word, .emoji {
+  position: relative;
+  padding: 10px 25px; }
+
+.word {
+  display: inline-block; }
+  .word:before, .word:after {
+    content: attr(data-text);
+    position: absolute;
+    left: 25px;
+    top: 10px; }
+  .word:before {
+    text-shadow: 1px 5px 25px rgba(0, 0, 0, 0.85); }
+  .word:after {
+    background-image: -webkit-linear-gradient(#a5d6a7, #2e7d32);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 5px #000000; }
+
+.emoji {
+  color: transparent;
+  font: 0/0 a;
+  width: 120px;
+  height: 120px;
+  background: center center no-repeat;
+  filter: drop-shadow(1px 7px 10px rgba(0, 0, 0, 0.55)); }
+  .emoji.poo {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/168886/emoji-apple-poo.png"); }
+  .emoji.banana {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/168886/emoji-lg-banana.png"); }
+
+#clap {
+  position: relative;
+  width: 0px;
+  height: 120px;
+  opacity: 0; }
+  #clap .t {
+    position: absolute;
+    left: -20px;
+    top: 60px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 20px 85px 40px;
+    border-color: transparent transparent #ffca28 transparent;
+    border-radius: 15px; }
+  #clap .t1 {
+    transform: scale(0.9) rotate(18deg) translate(-40px, 60px); }
+  #clap .t2 {
+    transform: scale(-0.55, 0.75) rotate(18deg) translate(10px, 30px); }
+  #clap .t3 {
+    transform: scale(0.6) rotate(155deg) translate(-20px, 160px); }
+
+/*# sourceMappingURL=index.css.map */
