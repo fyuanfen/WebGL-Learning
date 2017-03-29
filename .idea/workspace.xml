@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea796111-72a9-4e22-af5a-92bf1aef2498" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/example/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/js/dat.gui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/light/spotlight.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task/banana/customease.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task/banana/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task/banana/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task/banana/index.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task/robot/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task/robot/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task/robot/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task/task1/README.md" afterPath="$PROJECT_DIR$/task/task1/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task/task1/task1.html" afterPath="$PROJECT_DIR$/task/task1/task1.html" />
-    </list>
+    <list default="true" id="ea796111-72a9-4e22-af5a-92bf1aef2498" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -464,7 +450,7 @@
       <option name="presentableId" value="Default" />
       <updated>1490695746914</updated>
       <workItem from="1490695748589" duration="19051000" />
-      <workItem from="1490771585015" duration="16160000" />
+      <workItem from="1490771585015" duration="16332000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1490771743785</created>
@@ -473,11 +459,18 @@
       <option name="project" value="LOCAL" />
       <updated>1490771743785</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="3d">
+      <created>1490800843818</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1490800843818</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35211000" />
+    <option name="totallyTimeSpent" value="35383000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -518,7 +511,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="3d" />
+    <option name="LAST_COMMIT_MESSAGE" value="3d" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
