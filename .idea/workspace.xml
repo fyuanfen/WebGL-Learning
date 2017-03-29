@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea796111-72a9-4e22-af5a-92bf1aef2498" name="Default" comment="" />
+    <list default="true" id="ea796111-72a9-4e22-af5a-92bf1aef2498" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Geometry/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Geometry/text.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Material/Imagematerial.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Material/chess.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Material/material.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Material/normal.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Mesh/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/animation/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/animation/stats.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/helvetiker_regular.typeface.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/chess.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/stats.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/three.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task/task1/three.js 基础学习笔记.md" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task/task1/task1.html" afterPath="$PROJECT_DIR$/task/task1/task1.html" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -19,7 +42,7 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="three.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/three.js">
+        <entry file="file://$PROJECT_DIR$/demo/js/three.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
               <caret line="20231" column="0" lean-forward="true" selection-start-line="20231" selection-start-column="0" selection-end-line="20231" selection-end-column="0" />
@@ -29,7 +52,7 @@
         </entry>
       </file>
       <file leaf-file-name="material.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Material/material.html">
+        <entry file="file://$PROJECT_DIR$/demo/Material/material.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="369">
               <caret line="38" column="15" lean-forward="true" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="37" />
@@ -39,7 +62,7 @@
         </entry>
       </file>
       <file leaf-file-name="normal.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Material/normal.html">
+        <entry file="file://$PROJECT_DIR$/demo/Material/normal.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
               <caret line="22" column="12" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="7" />
@@ -49,7 +72,7 @@
         </entry>
       </file>
       <file leaf-file-name="Imagematerial.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Material/Imagematerial.html">
+        <entry file="file://$PROJECT_DIR$/demo/Material/Imagematerial.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="324">
               <caret line="47" column="20" lean-forward="false" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
@@ -59,7 +82,7 @@
         </entry>
       </file>
       <file leaf-file-name="chess.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Material/chess.html">
+        <entry file="file://$PROJECT_DIR$/demo/Material/chess.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="219">
               <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="22" selection-end-column="29" />
@@ -69,7 +92,7 @@
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Mesh/index.html">
+        <entry file="file://$PROJECT_DIR$/demo/Mesh/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
               <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
@@ -79,7 +102,7 @@
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Geometry/index.html">
+        <entry file="file://$PROJECT_DIR$/demo/Geometry/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="12" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="148" selection-end-column="7" />
@@ -89,7 +112,7 @@
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/animation/index.html">
+        <entry file="file://$PROJECT_DIR$/demo/animation/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="525">
               <caret line="71" column="37" lean-forward="false" selection-start-line="71" selection-start-column="37" selection-end-line="71" selection-end-column="37" />
@@ -109,7 +132,7 @@
         </entry>
       </file>
       <file leaf-file-name="stats.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/animation/stats.html">
+        <entry file="file://$PROJECT_DIR$/demo/animation/stats.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="714">
               <caret line="50" column="44" lean-forward="false" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
@@ -132,6 +155,9 @@
     <findStrings>
       <find>material</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -165,6 +191,7 @@
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -182,6 +209,16 @@
     <panes>
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebGL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebGL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="WebGL" />
@@ -210,59 +247,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Mesh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebGL" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebGL" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Material" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebGL" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebGL" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebGL" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebGL" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebGL" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebGL" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Geometry" />
+              <option name="myItemId" value="demo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -286,11 +271,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/demo" />
       <recent name="$PROJECT_DIR$/task/task1" />
       <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Material" />
-      <recent name="$PROJECT_DIR$/Geometry" />
     </key>
   </component>
   <component name="RunManager">
@@ -358,12 +343,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1490695746914</updated>
-      <workItem from="1490695748589" duration="18730000" />
+      <workItem from="1490695748589" duration="19051000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18730000" />
+    <option name="totallyTimeSpent" value="19051000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -378,14 +363,14 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23749119" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23749119" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3120482" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3120482" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -407,7 +392,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/fonts/helvetiker_regular.typeface.json">
+    <entry file="file://$PROJECT_DIR$/demo/fonts/helvetiker_regular.typeface.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="63049" lean-forward="false" selection-start-line="0" selection-start-column="63049" selection-end-line="0" selection-end-column="63049" />
@@ -415,7 +400,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Geometry/text.html">
+    <entry file="file://$PROJECT_DIR$/demo/Geometry/text.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="43" column="34" lean-forward="false" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
@@ -423,7 +408,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Material/Imagematerial.html">
+    <entry file="file://$PROJECT_DIR$/demo/Material/Imagematerial.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="47" column="20" lean-forward="false" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
@@ -431,7 +416,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Material/normal.html">
+    <entry file="file://$PROJECT_DIR$/demo/Material/normal.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="22" column="12" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="7" />
@@ -439,7 +424,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/stats.js">
+    <entry file="file://$PROJECT_DIR$/demo/js/stats.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
@@ -447,7 +432,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/animation/stats.html">
+    <entry file="file://$PROJECT_DIR$/demo/animation/stats.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
           <caret line="50" column="44" lean-forward="false" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
@@ -455,7 +440,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/three.js">
+    <entry file="file://$PROJECT_DIR$/demo/js/three.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="20231" column="0" lean-forward="true" selection-start-line="20231" selection-start-column="0" selection-end-line="20231" selection-end-column="0" />
@@ -463,7 +448,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mesh/index.html">
+    <entry file="file://$PROJECT_DIR$/demo/Mesh/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
@@ -471,7 +456,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Geometry/index.html">
+    <entry file="file://$PROJECT_DIR$/demo/Geometry/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="148" selection-end-column="7" />
@@ -479,7 +464,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Material/chess.html">
+    <entry file="file://$PROJECT_DIR$/demo/Material/chess.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
           <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="22" selection-end-column="29" />
@@ -487,7 +472,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/animation/index.html">
+    <entry file="file://$PROJECT_DIR$/demo/animation/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="71" column="37" lean-forward="false" selection-start-line="71" selection-start-column="37" selection-end-line="71" selection-end-column="37" />
@@ -495,7 +480,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Material/material.html">
+    <entry file="file://$PROJECT_DIR$/demo/Material/material.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="369">
           <caret line="38" column="15" lean-forward="true" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="37" />
